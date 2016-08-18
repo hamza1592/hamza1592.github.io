@@ -1,0 +1,74 @@
+# Site settings
+title: Hamza Ahmed Qureshi
+email: 1592hamza@gmail.com
+url: localhost:4000
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Web and Android Developer - Graphic Artist - User Experience Designer"
+meta_author: Qureshi Hamza
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Hamza Ahmed
+  location: Location
+  social: Around the Web
+  credits: Credits
+  resume: Resume
+  download_resume: Download Resume
+resume:
+  url: resume/resume.pdf
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/Hamza.92
+  - title: github
+    url: http://github.com/hamza1592
+  - title: linkedin
+    url: https://pk.linkedin.com/in/hamza-qureshi-522730100    
+
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 245 Elbern Markel Drive
+  - line: Brampton, ON LC63C3
+  - line: Canada
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  projectsCentegy:
+    title: Centegy Technologies (Pvt) Ltd.
+    directory: site.projectsCentegy
+  projectsLums:
+    title: Lahore University of Management Sciences
+    directory: site.projectsLums
+  projectsOther:
+    title: Other personal and freelance projects  
+    directory: site.projectsOther
