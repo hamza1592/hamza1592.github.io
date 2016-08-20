@@ -5,7 +5,7 @@ modal-id: 3
 date: 2016-08-09
 img: cake.png
 alt: image-alt
-project-date: Since January 2016 (Ongoing project)
+project-date: January 2016 to August 2016
 client: Multiple
 category:  Web Application Development
 company: Centegy Technologies Pvt Ltd

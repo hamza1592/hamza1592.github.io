@@ -5,7 +5,7 @@ modal-id: 2
 date: 2016-07-31
 img: cake.png
 alt: image-alt
-project-date: Since February 2016 (Ongoing project)
+project-date: February 2016 to August 2016
 client: Multiple
 category:  REST API & Mobile Application Development
 company: Centegy Technologies Pvt Ltd
