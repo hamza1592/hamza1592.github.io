@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
 }
 
@@ -429,7 +429,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 2px;
     height: 75px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
@@ -440,7 +440,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 2px;
     height: 75px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
@@ -475,3 +475,29 @@ footer .footer-below {
 .custom-simple-table > tbody > tr > td:nth-child(2) {
     width: 100%;
 }
+
+.custom-image-slider > span{
+    font-size: 3em;
+    cursor: pointer;
+    color: #{{site.color.secondary}};
+}
+
+.custom-image-slider > span:active {
+  transform: translateY(4px);
+
+}
+
+.custom-image-slider > span:hover {
+    color: #{{site.color.primary}};
+}
+
+
+
+.custom-image-slider > img {
+    display: none;
+    width: 80%;
+
+}
+
+
+
