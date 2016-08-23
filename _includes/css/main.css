@@ -208,6 +208,7 @@ section.success a{
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    cursor: pointer;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -224,6 +225,9 @@ section.success a{
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
+#portfolio .portfolio-item .portfolio-link .caption:active {
+    background: rgba({{ site.color.secondary-rgb }},.9);
+}
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
@@ -235,14 +239,14 @@ section.success a{
     font-size: 20px;
     color: #fff;
 }
-
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
+    margin-top: 40px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
+    margin: -25px;
+    padding: 0 25px;
 }
 
 #portfolio * {
@@ -398,6 +402,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    margin: 100px 100px 0 100px;
+    background-clip: 
 }
 
 .portfolio-modal .modal-content h2 {
@@ -496,8 +502,23 @@ footer .footer-below {
 .custom-image-slider > img {
     display: none;
     width: 80%;
+    height: 80%;
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.4);
 
 }
 
+.custom-image-slider .image-container-div{
+    display: inline;
+}
 
-
+.ajax-loader .center {
+    display: none;
+}
+.ajax-loader .center > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+}
