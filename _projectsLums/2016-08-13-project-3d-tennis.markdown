@@ -1,5 +1,5 @@
 ---
-title: 3D Tennis - Unity3D
+title: 3D Tennis Game
 layout: default
 modal-id: 7
 date: 2016-08-12
