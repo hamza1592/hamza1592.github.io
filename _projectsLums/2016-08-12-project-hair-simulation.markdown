@@ -1,5 +1,5 @@
 ---
-title: Hair Simulation Rendering
+title: Hair Simulation and Rendering
 layout: default
 modal-id: 6
 date: 2016-08-12
