@@ -18,7 +18,7 @@
                             <input type="hidden" name="imageSliderIndex" value="1">
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
                             {% for image in post.images %}
-                            <img src="img/portfolio/centegy/{{ image }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}">
+                            <img src="img/portfolio/centegy/{{post.modal-id}}/{{ image.name }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}" style="width:{{image.width}};height:{{image.height}}">
                             {% endfor %}                            
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>
                         </div>
@@ -79,7 +79,7 @@
                             <input type="hidden" name="imageSliderIndex" value="1">
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
                             {% for image in post.images %}
-                            <img src="img/portfolio/lums/{{ image }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}">
+                            <img src="img/portfolio/lums/{{post.modal-id}}/{{ image.name }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}" style="width:{{image.width}};height:{{image.height}}">
                             {% endfor %}                            
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>
                         </div>
@@ -140,7 +140,7 @@
                             <input type="hidden" name="imageSliderIndex" value="1">
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
                             {% for image in post.images %}
-                            <img src="img/portfolio/personal/{{ image }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}">
+                            <img src="img/portfolio/personal/{{post.modal-id}}/{{ image.name }}" class="img-responsive img-centered sliderImages" alt="{{ post.alt }}" style="width:{{image.width}};height:{{image.height}}">
                             {% endfor %}                            
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>
                         </div>
