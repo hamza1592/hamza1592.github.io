@@ -1,6 +1,3 @@
- <div id="progressBar" class="ajax-loader center fade">
-    <img src="img/ajax-loader.gif">
-</div>
 <!-- Portfolio Modals for centegy projects-->
 {% for post in site.projectsCentegy %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
@@ -140,6 +137,9 @@
                         <div class="custom-image-slider">
                             <input type="hidden" name="imageSliderIndex" value="1">
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
+                            <div class="ajax-loading-div">
+                                <img src="img/ajax-loader.gif">
+                            </div>
                             <div class="image-container-div">
                             </div>                
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>

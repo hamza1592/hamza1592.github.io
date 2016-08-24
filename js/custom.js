@@ -56,9 +56,9 @@ function showImage(currentModal,n) {
 
 
 function showModal(modalId,postId,category,imageArray){
-	$("#progressBar").show();
 	var imagesArea = $(modalId+" .image-container-div");
-	if($.trim($(imagesArea).html()).length == 0){
+	if($.trim($(imagesArea).html()).length == 0 && imageArray.length>0){
+		$(modalId+" .ajax-loading-div").css("display","inline");
 		var imgPath = "img/portfolio/" + category +"/" + postId +"/"; 
 		for(var i=0;i<imageArray.length;i++){
 			var img = $("<img />").css({"width":imageArray[i].width,"height":imageArray[i].height,"display":"none"})
@@ -67,14 +67,15 @@ function showModal(modalId,postId,category,imageArray){
 				if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
 					alert('broken image!');
 				} else {
-					if($.trim($(imagesArea).html()).length == 0)
+					if($.trim($(imagesArea).html()).length == 0){
 						$(this).css("display","inline");
+						$(modalId+" .ajax-loading-div").css("display","none");
+					}
 					$(imagesArea).append($(this));
 				}
 			});
 		}
 	}
-	$("#progressBar").hide();
 	$(modalId).modal();
 
 }

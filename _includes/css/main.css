@@ -513,6 +513,11 @@ footer .footer-below {
     display: inline;
 }
 
+.custom-image-slider .ajax-loading-div{
+    display: none;
+}
+
+
 .ajax-loader .center {
     display: none;
 }
