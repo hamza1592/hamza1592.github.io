@@ -19,6 +19,9 @@
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
                             <div class="image-container-div">
                             </div>
+                            <div class="ajax-loading-div">
+                                <img src="img/ajax-loader.gif">
+                            </div>
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>
                         </div>
                         <p>{{ post.description }}</p>
@@ -78,6 +81,9 @@
                             <input type="hidden" name="imageSliderIndex" value="1">
                             <span class="glyphicon glyphicon-chevron-left" onClick="showPrevImage('portfolioModal-{{ post.modal-id }}')"></span>
                             <div class="image-container-div">
+                            </div>
+                            <div class="ajax-loading-div">
+                                <img src="img/ajax-loader.gif">
                             </div>
                             <span class="glyphicon glyphicon-chevron-right" onClick="showNextImage('portfolioModal-{{ post.modal-id }}')"></span>
                         </div>
