@@ -3,7 +3,7 @@ title: ILAS (Individual life assurance system) - Android Version
 layout: default
 modal-id: 2
 date: 2016-07-31
-img: safe.png
+img: main.png
 alt: image-alt
 project-date: February 2016 to August 2016
 client: Multiple

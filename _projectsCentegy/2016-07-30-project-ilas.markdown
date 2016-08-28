@@ -3,7 +3,7 @@ title: ILAS (Individual life assurance system)
 layout: default
 modal-id: 1
 date: 2016-07-31
-img: cabin.png
+img: main.png
 alt: image-alt
 project-date: September 2015 to August 2016
 client: Multiple

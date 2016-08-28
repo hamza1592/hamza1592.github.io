@@ -3,7 +3,7 @@ title: GIAS - General Insurance Administration System
 layout: default
 modal-id: 3
 date: 2016-08-09
-img: cake.png
+img: main.png
 alt: image-alt
 project-date: January 2016 to August 2016
 client: Multiple
