@@ -3,7 +3,7 @@ title: GCE PHY MCQs
 layout: default
 modal-id: 9
 date: 2016-07-31
-img: cake.png
+img: main.png
 alt: image-alt
 project-date: July 2016 to date
 client: N/A

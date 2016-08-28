@@ -3,7 +3,7 @@ title: Elaundry
 layout: default
 modal-id: 8
 date: 2016-07-31
-img: safe.png
+img: main.png
 alt: image-alt
 project-date: July 2016
 client: Freelance
