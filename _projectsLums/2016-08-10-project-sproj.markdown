@@ -3,7 +3,7 @@ title: Implementing automated garbage collection system for local area
 layout: default
 modal-id: 4
 date: 2016-08-10
-img: cake.png
+img: main.png
 alt: image-alt
 project-date: September 2014 to May 2015
 client: N/A

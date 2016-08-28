@@ -3,7 +3,7 @@ title: 2D Human Pose Estimation and Tracking in Non-Overlapping Cameras
 layout: default
 modal-id: 5
 date: 2016-08-11
-img: circus.png
+img: main.png
 alt: image-alt
 project-date: June 2014 to August 2014
 client: N/A

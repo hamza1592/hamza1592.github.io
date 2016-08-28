@@ -3,7 +3,7 @@ title: Hair Simulation and Rendering
 layout: default
 modal-id: 6
 date: 2016-08-12
-img: submarine.png
+img: main.png
 alt: image-alt
 project-date: August 2013 to December 2013
 client: N/A
