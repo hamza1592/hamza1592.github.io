@@ -13,4 +13,19 @@ description: Working on an application for preparation of GCE MCQ exams. The app
 technicalDetails: Java, Android framework, Open source external libraries
 tools: Android Studio, Adobe Photoshop
 images:
+ - name: gce_phy1.png
+   width: auto
+   height: 80%
+ - name: gce_phy2.png
+   width: auto
+   height: 80%
+ - name: gce_phy3.png
+   width: auto
+   height: 80%
+ - name: gce_phy4.png
+   width: auto
+   height: 80%
+ - name: gce_phy5.png
+   width: auto
+   height: 80%
 ---
