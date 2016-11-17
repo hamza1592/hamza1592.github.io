@@ -12,5 +12,20 @@ company: Centegy Technologies Pvt Ltd
 description: Solely created the whole REST API from scratch to migrate the ILAS web application to android devices. Along with that I upgraded the backend ILAS service so the same Models and Controllers could serve both the web application views and the android application views (through the REST API). Implemented SSL and Kerberos authentication to make the application secure. Also took active part in the android development outside my assigned role due to upcoming project deadline. 
 technicalDetails: REST API, MVC framework, Java, Oracle DB, Volley framework, MySQL  
 tools: Intellij IDEA, Android Studio, PL/SQL developer, SQL browser, Tomcat Server
-images: []
+images:
+ - name: ilasAnd1.jpeg
+   width: 30%
+   height: auto
+ - name: ilasAnd2.jpeg
+   width: 30%
+   height: auto
+ - name: ilasAnd3.jpeg
+   width: 30%
+   height: auto
+ - name: ilasAnd4.jpeg
+   width: 30%
+   height: auto
+ - name: ilasAnd5.jpeg
+   width: 30%
+   height: auto   
 ---
