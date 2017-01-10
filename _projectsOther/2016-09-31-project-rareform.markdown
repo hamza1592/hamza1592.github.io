@@ -1,11 +1,11 @@
 ---
-title: Elaundry
+title: Rareform
 layout: default
-modal-id: 8
-date: 2016-07-31
+modal-id: 10
+date: 2016-09-31
 img: main.png
 alt: image-alt
-project-date: July 2016
+project-date: September 2016
 client: International
 category: Android Native Application
 company: Universal Data Processing Inc
