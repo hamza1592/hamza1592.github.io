@@ -8,7 +8,7 @@ alt: image-alt
 project-date: July 2016 to date
 client: N/A
 category: Android Native Application
-company: Self
+company: Universal Data Processing Inc
 description: Working on an application for preparation of GCE MCQ exams. The application is in the final UI/UX revamping stage.
 technicalDetails: Java, Android framework, Open source external libraries
 tools: Android Studio, Adobe Photoshop
